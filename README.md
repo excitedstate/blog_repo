@@ -13,12 +13,14 @@ git clone -b main https://github.com/anzhiyu-c/hexo-theme-anzhiyu.git themes/anz
 npm install hexo-renderer-pug hexo-renderer-stylus --save
 npm run build
 sudo npm install -g hexo
+# # 转换图像路径用的
+npm install https://github.com/CodeFalling/hexo-asset-image --save
 ```
 
 # 更新博客
 
 ```shell
-hexo clean && hexo generat
+hexo clean && hexo generate
 # # preview
 hexo server
 # # deploy

@@ -1053,6 +1053,11 @@ home_top:
       path: /db_system/index.html
       shadow: var(--anzhiyu-shadow-green)
       class: green
+      icon: anzhiyu-icon-paper-plane
+    - name: BUG排查
+      path: /bugs/index.html
+      shadow: var(--anzhiyu-shadow-green)
+      class: green
       icon: anzhiyu-icon-book
   default_descr: 再怎么看我也不知道怎么描述它的啦！
   swiper:
