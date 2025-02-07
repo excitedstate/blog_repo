@@ -1,4 +1,6 @@
-# 按照以下方法重装`hexo`环境
+# 说明
+
+## 按照以下方法重装`hexo`环境
 
 ```shell
 # # install node/npm in your machine
@@ -17,7 +19,7 @@ sudo npm install -g hexo
 npm install https://github.com/CodeFalling/hexo-asset-image --save
 ```
 
-# 更新博客
+## 更新博客
 
 ```shell
 hexo clean && hexo generate
